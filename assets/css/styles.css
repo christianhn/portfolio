@@ -51,7 +51,9 @@ h4 {
 .inline-block{
     display: inline-block;
 }
+.list{
 
+}
 /*PRESENTATION*/
 .presentation{
     height: 90vh;
@@ -71,6 +73,7 @@ header{
     margin-left: -1.5vw;
     margin-top: 5px;
     position: fixed;
+    width: 20px;
 }
 
 /*HOME*/
@@ -115,6 +118,7 @@ header{
     justify-content: space-between;
     padding: 10% 20%;
 }
+
 .colum img{
     width: 300px;
     margin-bottom: 15%;
@@ -151,11 +155,63 @@ footer .email{
 
 
 @media only screen and (max-width: 600px) {
+    .home {
+      padding: 5% 20%;
+    }
+    .home .inline-block {
+
+    }
+    .profile{
+      width: 70%;
+      margin-top: -5vh;
+    }
+    .home{
+      display: block;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .menu h4 {
+      margin-right: 4vw;
+    }
+    .menu img {
+      margin-left: -3vw;
+      margin-top: 6px;
+      width: 16px;
+    }
+    .home .hi{
+      margin-top: 10vh;
+    }
+    /*EXPERIENCE*/
+    .experience {
+      padding: 20vw 5vw;
+    }
+
+    /*SKILLS*/
+    .skills {
+      padding: 30vh 5vw;
+    }
+    /*PROJECTS*/
+    .container {
+      display: block;
+      justify-content: center;
+      padding: 20vw 14vw;
+    }
+    .project2{
+      display: none;
+    }
+
+    /*FOOTER*/
+    footer{
+        padding: 0px 5vw;
+    }
 
 }
 @media only screen and (min-width: 601px ) and (max-width: 768px ) {
 
 }
 @media only screen and (min-width: 769px) {
-
+    .project1 {
+      display: none;
+    }
 }
