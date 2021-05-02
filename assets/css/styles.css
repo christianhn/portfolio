@@ -195,7 +195,9 @@ footer .email{
     .container {
       display: block;
       justify-content: center;
-      padding: 20vw 14vw;
+      text-align: center;
+      align-items: center;
+      padding: 20vw 0vw;
     }
     .project2{
       display: none;
