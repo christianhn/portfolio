@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="34.68" height="15.05" viewBox="0 0 34.68 15.05">
-  <g id="Menu" transform="translate(-1813 -51.5)">
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="23" viewBox="0 0 46 23">
+  <g id="Menu" transform="translate(-1807.5 -47.5)">
+    <rect id="Rectángulo_13" data-name="Rectángulo 13" width="46" height="23" transform="translate(1807.5 47.5)" fill="none"/>
     <line id="Línea_2" data-name="Línea 2" x2="30.68" transform="translate(1815 53.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4"/>
     <line id="Línea_3" data-name="Línea 3" x2="30.68" transform="translate(1815 64.55)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4"/>
   </g>
