@@ -90,7 +90,7 @@ header{
 }
 .menu h4{
     /* align-items: right; */
-    margin-right: 25px;
+    margin-right: 3vw;
 }
 .menu img{
     margin-left: -25px;
@@ -207,6 +207,12 @@ footer{
     }
 }
 
+@media only screen and (max-width: 350px) {
+    .menu img{
+        width: 7vw;
+    }
+}
+
 @media only screen and (max-width: 450px) {
     body{
         margin: 0;
@@ -226,9 +232,13 @@ footer{
     }    
 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 765px) {
+    .menu h4{
+        margin-right: 25px;
+    }
     .profile{
         width: 80vw;
+        height: 30vh;
         margin-top: 5vh;
     }
     .home{
@@ -238,13 +248,13 @@ footer{
         align-items: center;
         text-align: center;
     }
-    .menu h4 {
-      /* margin-right: 4vw; */
+    .social{
+        display: flex;
+        justify-content: space-between;
+        padding: 10vw;
     }
-    .menu img {
-      /* margin-left: -3vw; */
-      /* margin-top: 2.1vw; */
-      /* width: 5vw; */
+    .social img{
+        padding-right: 0;
     }
     .home .hi{
       margin-top: 10vh;
