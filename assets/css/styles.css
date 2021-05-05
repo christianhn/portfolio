@@ -20,6 +20,10 @@ h4 {
     font-family: montserrat-bold;
     /* font-size: 1.2vw; */
 }
+.h4 {
+    font-family: montserrat-bold;
+    /* font-size: 1.2vw; */
+}
 
 hr{
     margin: -7px;
@@ -77,7 +81,7 @@ body::-webkit-scrollbar-thumb{
 
 /*NAVBAR*/
 header{
-    padding: 2%;
+    padding: 5vh 10vw 2vh 10vw;
     display: flex;
     justify-content: space-between;
 }
@@ -131,7 +135,7 @@ header{
 
 /*SKILLS*/
 .skills{
-    padding: 20vw;
+    padding: 20vh 20vw;
 }
 
 /*PROJECTS*/
@@ -144,7 +148,7 @@ header{
 .colum img{
     width: 300px;
     margin-bottom: 15%;
-    box-shadow: 0.0em 0.0em 2em rgb(0,0, 0,0.1);
+    /* box-shadow: 0.0em 0.0em 2em rgb(0,0, 0,0.1); */
     border-radius: 25px;
 }
 .colum h2{
@@ -184,7 +188,7 @@ footer{
 .up{
     height: 20px;  
     padding: 1vw;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     background-color: rgba(255, 255, 255, 0.726);
     border-radius: 100%;
 }
@@ -223,21 +227,16 @@ footer{
 
 }
 @media only screen and (max-width: 768px) {
-    .home {
-      padding: 5% 20% 0% 20%;
-    }
-    .home .inline-block {
-
-    }
     .profile{
-      width: 50vw;
-      margin-top: 5vh;
+        width: 80vw;
+        margin-top: 5vh;
     }
     .home{
-      display: block;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+        padding: 0;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .menu h4 {
       /* margin-right: 4vw; */
@@ -257,7 +256,7 @@ footer{
 
     /*SKILLS*/
     .skills {
-      padding: 30vh 5vw;
+      padding: 8vh 5vw;
     }
     /*PROJECTS*/
     .container {
@@ -266,6 +265,9 @@ footer{
       text-align: center;
       align-items: center;
       padding: 20vw 0vw;
+    }
+    .colum img{
+        width: 100vw;
     }
 
     .project2{
