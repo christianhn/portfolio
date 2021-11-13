@@ -8,9 +8,9 @@ body{
     margin: 0;
     /* font-size: 1vw; */
 }
-h2 {
+h1 {
     font-family: montserrat-bold;
-    /* font-size: 1.6vw; */
+    font-size: 38px;
 }
 h3 {
     font-family: montserrat-bold;
@@ -72,6 +72,19 @@ body::-webkit-scrollbar-thumb{
     display: inline-block;
 }
 
+.list {
+    float:left;
+    width: 25%;
+    padding: 2% 0px;
+    font-size: 16px;
+    list-style-position: inside;
+}
+
+ul .list::marker {
+    color: #ffb341d8;
+    font-size: 25px;
+}
+
 /*PRESENTATION*/
 .presentation{
     height: 90vh;
@@ -109,6 +122,9 @@ header{
 .hi{
     height: auto;
 }
+.hi{
+    height: auto;
+}
 .social{
     padding-top: 10%;
 }
@@ -122,7 +138,7 @@ header{
     background-image: url(../img/experience.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10vw 20vw;
+    padding: 10vw 15vw;
 }
 .experience p{
     color: white;
@@ -130,26 +146,26 @@ header{
 
 /*SKILLS*/
 .skills{
-    padding: 20vh 20vw;
+    padding: 20vh 15vw;
 }
 
 /*PROJECTS*/
 .container{
     display: flex;
     justify-content: space-between;
-    padding: 10% 15vw;
+    padding: 10% 0;
 }
 
 .colum img{
-    width: 300px;
-    margin-bottom: 15%;
-    /* box-shadow: 0.0em 0.0em 2em rgb(0,0, 0,0.1); */
-    border-radius: 25px;
+    margin: 0 10% 5% 10%;
+    width: 29%;
+    background-color: brown;
+    box-shadow: 0.0em 0.0em 2em rgb(0,0, 0,0.1); 
+    border-radius: 10px;
 }
 .colum h2{
     text-align: right;
-    padding-right: 10%;
-    padding-bottom: 15%;
+    padding: 0 15% 5% 0;
 }
 
 /*FOOTER*/
@@ -304,4 +320,9 @@ footer{
     .project1 {
       display: none;
     }
+}
+
+
+.none {
+    display: none;
 }
