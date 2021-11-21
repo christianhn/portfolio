@@ -1,0 +1,52 @@
+
+/*FONTS*/
+@font-face {
+    font-family: montserrat;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: montserrat-bold;
+    src: url(../font/Montserrat-Bold.ttf);
+}
+* {
+    font-family: mulish;
+    -webkit-transition: .4s; /* Safari y Chrome */
+    -moz-transition: .4s; /* Firefox */
+    -o-transition: .4s; /* IE 9 */
+    -ms-transition: .4s; /* Opera */
+    
+}
+
+/*FONTS*/
+@font-face {
+    font-family: mulish;
+    src: url(../font/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: mulish-bold;
+    src: url(../font/Mulish/static/Mulish-Bold.ttf);
+}
+* {
+    font-family: mulish;
+    -webkit-transition: .4s; /* Safari y Chrome */
+    -moz-transition: .4s; /* Firefox */
+    -o-transition: .4s; /* IE 9 */
+    -ms-transition: .4s; /* Opera */
+}
+
+h1 {
+    font-family: mulish-bold;
+    font-size: 45px;
+}
+h3 {
+    font-family: mulish-bold;
+    /* font-size: 1.4vw; */
+}
+h4 {
+    font-family: mulish-bold;
+    /* font-size: 1.2vw; */
+}
+.h4 {
+    font-family: mulish-bold;
+    /* font-size: 1.2vw; */
+}
