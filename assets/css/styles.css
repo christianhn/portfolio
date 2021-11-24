@@ -242,9 +242,12 @@ footer h2{
 
 
 @media only screen and (max-width: 769px) {
+    .presentation{
+        height: auto;
+    }
     .profile {
       position: static;
-      width: 50vw;
+      width: 45vw;
       padding: 0 25vw;
       top: 0vh;
       right: 0vw;
@@ -280,13 +283,26 @@ footer h2{
 
     .experience {
         padding: 0 15vw 0vh 15vw;
-
+        height: auto;
+    }
+    /*SKILLS*/
+    .skills{
+        padding: 20vh 10vw;
+        height: auto;
+    }
+    .skills ul{
+        height: auto;
+    }
+    .list {
+        float: initial;
+        width: auto;
+        padding-right: 5vw;
     }
 }
 
 @media only screen and (max-width: 425px) {
     .presentation{
-        height: 75vh;
+        height: auto;
     }
     h1{
         font-size: 6vw;
@@ -341,12 +357,9 @@ footer h2{
         height: auto;
     }
     .list {
-        float: left;
-        width: 25vw;
-        padding: 2% 0px;
+        float: initial;
+        width: auto;
         padding-right: 5vw;
-        font-size: 16px;
-        list-style-position: outside;
     }
     .colum img{
         margin: 2.5vh 5vw 2.5vh 5vw;
