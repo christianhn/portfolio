@@ -39,7 +39,7 @@ body::-webkit-scrollbar-thumb{
 
 /*PRESENTATION*/
 .presentation{
-    height: 65vh;
+    height: auto;
 }
 
 /*NAVBAR*/
@@ -65,10 +65,9 @@ header{
 .home{
     display: flex;
     justify-content: space-between;
-    padding-left: 12% ;
-    padding-right: 11% ;
+    padding: 20vh 12vw 10vh 11vw;
     align-items: center;
-    height: 80vh;
+    height: auto;
 }
 hr{
     margin: -7px;
@@ -84,7 +83,6 @@ hr{
 }
 .hi{
     z-index: 950;
-    margin-top: -30vh;
     height: auto;
     padding-left: 5%;
 }
