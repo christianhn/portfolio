@@ -5,6 +5,7 @@ html {
 body{
     margin: 0;
     /* font-size: 1vw; */
+    min-height: 100vh;
 }
 a{
     text-decoration:none;
@@ -36,7 +37,6 @@ body::-webkit-scrollbar-thumb{
 .rigth{
     text-align: right;
 }
-
 /*PRESENTATION*/
 .presentation{
     height: auto;
@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb{
 
 /*NAVBAR*/
 header{
-    padding: 5vh 15vw 2vh 15vw;
+    padding: 35px 15vw 15px 15vw;
     display: flex;
     justify-content: space-between;
 }
@@ -64,7 +64,7 @@ header{
 /*HOME*/
 .home{
     justify-content: space-between;
-    padding: 15vh 50vw 10vh 15vw;
+    padding: 60px 50vw 50px 15vw;
     align-items: center;
     height: auto;
 }
@@ -80,6 +80,7 @@ hr{
     border-radius: 10px;
     height: 80vh;
     max-height: 400px;
+    min-height: 350px;
     top: 25vh;
     right: 15vw;
     box-shadow: 0.0em 0.0em 2em rgba(34, 112, 76, 0.3); 
@@ -89,15 +90,15 @@ hr{
     height: auto;
 }
 .social{
-    padding: 3vh 0;
+    padding: 20px 0;
 }
-.social img{
-    width: 28px;
-    padding-right: 3vw;
+.social a img{
+    width: 23px;
+    padding-right: 2vw;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
-.social img:hover {
+.social a img:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
 }
@@ -147,7 +148,7 @@ hr{
 
 /*SKILLS*/
 .skills{
-    padding: 15vh 15vw;
+    padding: 60px 15vw;
     text-align: justify; 
 }
 .list {
@@ -176,7 +177,7 @@ ul .list::marker {
     padding: 0 15% 5% 0;
 }
 .colum img{
-    margin: 2.5vh 5vw 2.5vh 5vw;
+    margin: 20px 5vw 20px 5vw;
     width: 29.5vw;
     box-shadow: 0.0em 0.0em 2em rgb(0,0, 0,0.1); 
     border-radius: 10px;
@@ -186,7 +187,8 @@ ul .list::marker {
 footer{
     background-color: #161616;
     color: rgb(255, 255, 255);
-    height: 75vh;
+    height: 100vh;
+    min-height: 500px;
     padding: 0vh 10vw;
     text-align: justify;
 }
@@ -194,13 +196,14 @@ footer h2{
     text-align: left;
 }
 .box{
-    padding: 10vh 8vw;
+    padding: 60px 8vw;
+    max-height: 100vh;
 }
 .feel{
-    height: 15vh;
+    height: 60px;
 }
 .email{
-    margin-bottom: 15vh;
+    margin-bottom: 60px;
     width: auto;
 }
 .email a {
@@ -237,7 +240,24 @@ footer h2{
     -o-transform:scale(1.2);
     transform:scale(1.2);
 }
-
+a .inline{
+    color: black;
+}
+.enlace{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ffffff00;
+}
+.enlace:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.enlace-b{
+    color: black;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ffffff00;
+}
+.enlace-b:hover{
+    border-bottom: 2px solid #000000;
+}
 
 @media only screen and (max-width: 1000px) {
     .profile {
@@ -245,6 +265,7 @@ footer h2{
       object-fit: cover;
       width: 50vw;
       height: 50vh;
+      max-height: 200px;
       margin: 5vh 25vw 0 25vw;
     }
     .inline-block {
@@ -254,7 +275,7 @@ footer h2{
 
     header {
         display: initial;
-        padding: 5vh 10vw 2vh 10vw;
+        padding: 30px 10vw 15px 10vw;
     }
 
     .home {
@@ -262,10 +283,10 @@ footer h2{
     }
 
     .social{
-        padding-top: 2vh;
+        padding-top: 25px;
     }
     .hi{
-        padding: 6vh 10vw 3vh 10vw;
+        padding: 50px 10vw 35px 10vw;
     }
     .hi h1{
         width: auto;
@@ -276,12 +297,12 @@ footer h2{
     }
 
     .experience {
-        padding: 1vh 10vw;
+        padding: 10px 10vw;
         width: auto;
     }
     /*SKILLS*/
     .skills{
-        padding: 20vh 10vw;
+        padding: 100px 10vw;
     }
     .skills ul{
         height: auto;
@@ -304,7 +325,7 @@ footer h2{
         position: static;
         height: 50vh;
         width: 80vw;
-        margin: 5vh 10vw;
+        margin: 30px 10vw;
     }
     .inline-block {
         display: initial;
@@ -313,7 +334,7 @@ footer h2{
 
     header {
         display: initial;
-        padding: 5vh 10vw 2vh 10vw;
+        padding: 30px 10vw 15px 10vw;
     }
 
     .home {
@@ -321,9 +342,9 @@ footer h2{
     }
 
     .social{
-        padding: 2vh 0vw;
+        padding: 15px 0vw;
     }
-    .social img{
+    .social a img{
         padding-right: 5%;
         width: 6vw;
     }
@@ -334,7 +355,7 @@ footer h2{
     }
     /*SKILLS*/
     .skills{
-        padding: 20vh 10vw;
+        padding: 100px 10vw;
         height: auto;
     }
     .skills ul{
@@ -346,13 +367,12 @@ footer h2{
         padding-right: 5vw;
     }
     .colum img{
-        margin: 2.5vh 5vw 2.5vh 5vw;
+        margin: 15px 5vw 15px 5vw;
         width: 70vw;
     }
 
     footer{
-        padding: 5vh 10vw 2vh 10vw;
-        height: 70vh;
+        padding: 30px 10vw 15px 10vw;
     }
     .box{
         padding: 0;
