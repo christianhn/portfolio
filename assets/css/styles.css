@@ -255,6 +255,13 @@ a .inline{
 .enlace:hover{
     border-bottom: 2px solid #ffffff;
 }
+.enlace-inverted{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ffffff;
+}
+.enlace-inverted:hover{
+    border-bottom: 2px solid #00000000;
+}
 .enlace-b{
     color: black;
     padding-bottom: 2px;
