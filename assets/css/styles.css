@@ -281,9 +281,10 @@ a .inline{
       position: static;
       object-fit: cover;
       width: 50vw;
+      max-width: 400px;
       height: 50vh;
-      max-height: 200px;
       margin: 5vh 25vw 0 25vw;
+      min-height: 450px;
     }
     .inline-block {
         display: initial;
