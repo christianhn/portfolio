@@ -81,7 +81,7 @@ hr{
     height: 80vh;
     max-height: 400px;
     min-height: 350px;
-    top: 25vh;
+    top: 160px;
     right: 15vw;
     box-shadow: 0.0em 0.0em 2em rgba(34, 112, 76, 0.3); 
 }
@@ -148,7 +148,7 @@ hr{
 
 /*SKILLS*/
 .skills{
-    padding: 60px 15vw;
+    padding: 100px 15vw;
     text-align: justify; 
 }
 .list {
@@ -196,11 +196,16 @@ footer h2{
     text-align: left;
 }
 .box{
-    padding: 60px 8vw;
+    padding-top: 25vh;
+    height: 70vh;
     max-height: 100vh;
 }
 .feel{
     height: 60px;
+}
+.feel a{
+    color: white;
+
 }
 .email{
     margin-bottom: 60px;
@@ -257,6 +262,11 @@ a .inline{
 }
 .enlace-b:hover{
     border-bottom: 2px solid #000000;
+}
+.big{
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -324,8 +334,8 @@ a .inline{
     .profile {
         position: static;
         height: 50vh;
-        width: 80vw;
-        margin: 30px 10vw;
+        width: 70vw;
+        margin: 30px 15vw;
     }
     .inline-block {
         display: initial;
@@ -372,10 +382,16 @@ a .inline{
     }
 
     footer{
-        padding: 30px 10vw 15px 10vw;
+        padding: 0 10vw 0 10vw;
+        height: 85vh;
     }
     .box{
         padding: 0;
+        max-height: 85vh;
+        padding-top: 15vh;
+    }
+    .big{
+        font-size: 35px;
     }
 }
 
