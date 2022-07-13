@@ -10,10 +10,10 @@
 }
 * {
     font-family: mulish;
-    -webkit-transition: .4s; /* Safari y Chrome */
-    -moz-transition: .4s; /* Firefox */
-    -o-transition: .4s; /* IE 9 */
-    -ms-transition: .4s; /* Opera */
+    /* -webkit-transition: .4s; Safari y Chrome */
+    /* -moz-transition: .4s; Firefox */
+    /* -o-transition: .4s; IE 9 */
+    /* -ms-transition: .4s; Opera */
     
 }
 
@@ -25,13 +25,6 @@
 @font-face {
     font-family: mulish-bold;
     src: url(../font/Mulish/static/Mulish-Bold.ttf);
-}
-* {
-    font-family: mulish;
-    -webkit-transition: .4s; /* Safari y Chrome */
-    -moz-transition: .4s; /* Firefox */
-    -o-transition: .4s; /* IE 9 */
-    -ms-transition: .4s; /* Opera */
 }
 
 h1 {

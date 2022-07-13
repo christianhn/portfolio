@@ -9,19 +9,15 @@ body{
 }
 a{
     text-decoration:none;
+    -webkit-transition: .4s; /* Safari y Chrome */
+    -moz-transition: .4s; /* Firefox */
+    -o-transition: .4s; /* IE 9 */
+    -ms-transition: .4s; /* Opera */
 }
 
 /*SCROLLBAR*/
 body::-webkit-scrollbar{
     display: none;
-    overflow : hidden;
-    width: 7px;
-    background-color: transparent;
-    margin-right: 2px;
-}
-body::-webkit-scrollbar-thumb{
-    background-color: #dbdbdb;
-    border-radius: 30px;
 }
 
 /*DISPLAY*/
@@ -81,7 +77,7 @@ hr{
     height: 80vh;
     max-height: 400px;
     min-height: 350px;
-    top: 160px;
+    top: 140px;
     right: 15vw;
     box-shadow: 0.0em 0.0em 2em rgba(34, 112, 76, 0.3); 
 }
@@ -101,6 +97,10 @@ hr{
 .social a img:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+    -webkit-transition: .4s; /* Safari y Chrome */
+    -moz-transition: .4s; /* Firefox */
+    -o-transition: .4s; /* IE 9 */
+    -ms-transition: .4s; /* Opera */        
 }
 .github{
     opacity: 60%;
